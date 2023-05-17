@@ -4,7 +4,7 @@ The dataset comes from MIMIC project (https://mimic.physionet.org/). MIMIC-III (
 
 Each row of mimic_train.csv corresponds to one ICU stay (hadm_id+ icustay_id) of one patient (subject_id). <br>
 Column HOSPITAL_EXPIRE_FLAG is the indicator of death (=1) as a result of the current hospital stay; this is the outcome to predict in our modelling exercise. The remaining columns correspond to vitals of each patient (when entering the ICU), plus some general characteristics (age, gender, etc.), and their explanation can be found at mimic_patient_metadata.csv.
-# Main tasks are:
+# Main tasks:
 Explore and understand the dataset.<br>
 Manage missing data.<br>
 Manage categorical features. E.g. create dummy variables for relevant categorical features, or build an ad hoc distance function.<br>
